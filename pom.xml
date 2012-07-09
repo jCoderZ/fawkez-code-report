@@ -2,8 +2,8 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.jcoderz.fawkez</groupId>
-    <artifactId>fawkez</artifactId>
-    <name>fawkez</name>
+    <artifactId>fawkez-code-report</artifactId>
+    <name>fawkez-code-report</name>
     <version>2.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <parent>
@@ -11,7 +11,7 @@
       <artifactId>oss-parent</artifactId>
       <version>7</version>
     </parent>
-    <description>This is the Maven base project for the FawkeZ modules.</description>
+    <description>This is the Maven base project for the FawkeZ code-report modules.</description>
     <url>http://www.jcoderz.org/fawkez/</url>
     <organization>
         <name>jCoderZ</name>
@@ -26,24 +26,20 @@
     </licenses>
 
     <modules>
-        <module>fawkez-bootstrap</module>
-        <module>fawkez-commons</module>
-        <module>fawkez-logging</module>
-        <module>fawkez-codegen</module>
         <module>fawkez-code-report-core-base</module>
         <module>fawkez-code-report-core</module>
         <module>fawkez-code-report</module>
     </modules>
 
     <scm>
-        <url>https://github.com/jCoderZ/fawkez</url>
-        <connection>scm:git:://github.com/jCoderZ/fawkez.gitt</connection>
-        <developerConnection>scm:git:://github.com/jCoderZ/fawkez.gitt</developerConnection>
+        <url>https://github.com/jCoderZ/fawkez-code-report</url>
+        <connection>scm:git:://github.com/jCoderZ/fawkez-code-report.git</connection>
+        <developerConnection>scm:git:://github.com/jCoderZ/fawkez-code-report.git</developerConnection>
     </scm>
 
     <issueManagement>
         <system>github</system>
-        <url>https://github.com/jCoderZ/fawkez/issues</url>
+        <url>https://github.com/jCoderZ/fawkez-code-report/issues</url>
     </issueManagement>
 
     <developers>
