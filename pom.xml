@@ -2,8 +2,8 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.jcoderz.fawkez</groupId>
-    <artifactId>fawkez-codereport</artifactId>
-    <name>fawkez-codereport</name>
+    <artifactId>fawkez-code-report</artifactId>
+    <name>fawkez-code-report</name>
     <version>2.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <parent>
@@ -28,7 +28,7 @@
     <modules>
         <module>fawkez-code-report-core-base</module>
         <module>fawkez-code-report-core</module>
-        <module>fawkez-code-report</module>
+        <module>fawkez-code-report-main</module>
     </modules>
 
     <scm>
