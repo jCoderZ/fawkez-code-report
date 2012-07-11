@@ -5,22 +5,21 @@
     |  _| (_| |\ V  V /|   (  __// /_
     |_|  \__,_| \_/\_/ |_|\_\___/____|
     ___________________________________________________________________________
+                       _                                      _   
+          ___ ___   __| | ___       _ __ ___ _ __   ___  _ __| |_ 
+         / __/ _ \ / _` |/ _ \_____| '__/ _ \ '_ \ / _ \| '__| __|
+        | (_| (_) | (_| |  __/_____| | |  __/ |_) | (_) | |  | |_ 
+         \___\___/ \__,_|\___|     |_|  \___| .__/ \___/|_|   \__|
+                                            |_|                   
 
-                             ``A classic is something that everybody
-                               wants to have read and nobody has read.''
-                                    -- Mark Twain
 
 R E A D M E
 ===========
 
 
-This file gives a quick introduction into the fawkeZ project setup.
+This file gives a quick introduction into the fawkeZ-code-report project setup.
 
-Setup Eclipse Configuration
-
-$ mvn eclipse:clean eclipse:eclipse -DdownloadSources=true
-
-Change to the fawkez-parent directory and run the following Maven command
+Change to the project's parent directory and run the following Maven command
 
 $ mvn install
 

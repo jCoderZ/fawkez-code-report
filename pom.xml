@@ -29,6 +29,7 @@
         <module>fawkez-code-report-core-base</module>
         <module>fawkez-code-report-core</module>
         <module>fawkez-code-report-main</module>
+        <module>fawkez-code-report-sonar-plugin</module>
     </modules>
 
     <scm>

@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.jcoderz.fawkez</groupId>
     <artifactId>fawkez-code-report-sonar-plugin</artifactId>
-    <name>Sonar Plugin :: fawkeZ html code report</name>
+    <name>fawkez-code-report-sonar-plugin</name>
     <description>Sonar plugin to create the fawkeZ html code report at the end of a sonar analysis.</description>
     <url>http://www.jcoderz.org/fawkez/</url>
     <parent>

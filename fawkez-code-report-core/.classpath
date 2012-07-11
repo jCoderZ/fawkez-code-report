@@ -1,0 +1,22 @@
+<classpath>
+  <classpathentry kind="src" path="target/generated-sources/fawkez" including="**/*.java"/>
+  <classpathentry kind="src" path="target/generated-sources/xjc/report" including="**/*.java"/>
+  <classpathentry kind="src" path="target/generated-sources/xjc/ftf" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/javax/activation/activation/1.1/activation-1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/xml/bind/jaxb-api/2.0/jaxb-api-2.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/xml/bind/jsr173_api/1.0/jsr173_api-1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-cli/commons-cli/1.1/commons-cli-1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-pool/commons-pool/1.4/commons-pool-1.4.jar"/>
+  <classpathentry kind="src" path="/fawkez-code-report-core-base"/>
+  <classpathentry kind="var" path="M2_REPO/org/jcoderz/fawkez/fawkez-commons/2.0.0/fawkez-commons-2.0.0.jar" sourcepath="M2_REPO/org/jcoderz/fawkez/fawkez-commons/2.0.0/fawkez-commons-2.0.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/home/micha/.m2/repository/org/jcoderz/fawkez/fawkez-commons/2.0.0/fawkez-commons-2.0.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/geronimo-spec/geronimo-spec-jms/1.1-rc4/geronimo-spec-jms-1.1-rc4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/sun/xml/bind/jaxb-impl/2.0.5/jaxb-impl-2.0.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/4.8.2/junit-4.8.2.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+</classpath>
