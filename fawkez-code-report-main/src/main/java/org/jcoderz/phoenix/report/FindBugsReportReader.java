@@ -109,7 +109,7 @@ public final class FindBugsReportReader
       for (BugInstance bugInstance : bugInstances) 
       {
 
-         final List<Object> list = bugInstance.getClazzOrFieldOrMethod();
+         final List list = bugInstance.getClazzOrFieldOrMethod();
          final Item item = new ObjectFactory().createItem();
          final List<String> objectMessageList = new ArrayList<String>();
 
