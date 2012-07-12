@@ -24,7 +24,7 @@ public class JcReportDecorator implements Decorator
       return ResourceUtils.isProject(project);
     }
 
-    public void decorate(final Resource<?> resource, final DecoratorContext context) 
+    public void decorate(final Resource resource, final DecoratorContext context) 
     {
         for (Violation violation : context.getViolations())
         {
