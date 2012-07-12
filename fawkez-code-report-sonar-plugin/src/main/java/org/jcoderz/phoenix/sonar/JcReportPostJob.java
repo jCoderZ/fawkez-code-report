@@ -40,8 +40,6 @@ import org.sonar.api.Property;
 import org.sonar.api.batch.PostJob;
 import org.sonar.api.batch.SensorContext;
 import org.sonar.api.config.Settings;
-import org.sonar.api.resources.Language;
-import org.sonar.api.resources.Languages;
 import org.sonar.api.resources.Project;
 
 

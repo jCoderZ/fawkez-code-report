@@ -8,9 +8,9 @@ import org.sonar.api.SonarPlugin;
 public class JcReportPlugin extends SonarPlugin 
 {
 
-	public List getExtensions() 
+	public List<Class<JcReportDecorator>> getExtensions() 
 	{
-		final List extensions = new ArrayList();
+		final List<Class<JcReportDecorator>> extensions = new ArrayList<Class<JcReportDecorator>>();
 		extensions.add(JcReportDecorator.class);
 		return extensions;
 	}

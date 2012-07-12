@@ -69,7 +69,7 @@ import java.util.Map;
  * @author Andreas Mandel
  */
 public final class Severity
-        implements Serializable, Comparable
+        implements Serializable, Comparable<Severity>
 {
     /**
      * Scale of the penalty points. One penalty point marks  
@@ -95,7 +95,7 @@ public final class Severity
     private final transient String mName;
 
     /** Maps a string representation to an enumerated value. */
-    private static final Map FROM_STRING = new HashMap();
+    private static final Map<String, Severity> FROM_STRING = new HashMap<String, Severity>();
 
     /** 
      * Severity for filtered findings.
@@ -193,7 +193,7 @@ public final class Severity
     };
 
     /** Immutable list of the severities. */
-    public static final List VALUES =
+    public static final List<Severity> VALUES =
         Collections.unmodifiableList(Arrays.asList(PRIVATE_VALUES));
 
 
@@ -280,7 +280,7 @@ public final class Severity
     }
 
     /** {@inheritDoc} */
-    public int compareTo (Object o)
+    public int compareTo (Severity o)
     {
         return mOrdinal - ((Severity) o).mOrdinal;
     }
